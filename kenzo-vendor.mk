@@ -944,6 +944,8 @@ PRODUCT_COPY_FILES += \
 
 # Updated
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/xiaomi/kenzo/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/xiaomi/kenzo/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/Nexus/ROW/ROW_profiles.xml \
@@ -988,7 +990,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.0.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libbase-hax.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase-hax.so
 
 # IMS Blobs
 PRODUCT_COPY_FILES += \
