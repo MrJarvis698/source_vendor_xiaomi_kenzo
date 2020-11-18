@@ -285,7 +285,7 @@ android_app_import {
 
 android_app_import {
 	name: "ims",
-	owner: "oneplus",
+	owner: "xiaomi",
 	apk: "proprietary/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -297,7 +297,7 @@ android_app_import {
 android_app_import {
 	name: "imssettings",
 	owner: "xiaomi",
-	apk: "proprietary/app/imssettings/imssettings.apk",
+	apk: "proprietary/priv-app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
