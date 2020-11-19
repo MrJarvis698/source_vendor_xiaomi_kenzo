@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/kenzo
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/kenzo/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/xiaomi/kenzo/proprietary/bin/gx_fpd:$(TARGET_COPY_OUT_SYSTEM)/bin/gx_fpd \
     vendor/xiaomi/kenzo/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
     vendor/xiaomi/kenzo/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
